@@ -1,0 +1,36 @@
+{
+  "name": "dracflex-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) companion server for DracFlex Card Builder",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "dracflex-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "dracflex",
+    "card-builder"
+  ],
+  "author": "",
+  "license": "ISC"
+}
