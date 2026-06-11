@@ -10,7 +10,7 @@ The MCP server sets up a **Stdio Transport** for the AI client (e.g. Claude Desk
 
 ## Easiest Way: Run via `npx` (No Cloning Needed)
 
-If the package is published to npm as `dracflex-mcp`, or if you wish to run it instantly, you can use `npx` (Node.js) or `bunx` (Bun):
+You can run the DracFlex MCP server instantly using `npx` (Node.js) or `bunx` (Bun):
 
 ### For Claude Desktop Config
 
@@ -57,7 +57,7 @@ If you want to clone this repository to make changes or run it locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/dracflex-mcp.git
+git clone https://github.com/sultannaufal/dracflex-mcp.git
 cd dracflex-mcp
 ```
 
@@ -153,3 +153,5 @@ This MCP server provides the following tools and resources:
 ### Resources:
 - `dracflex-app://docs/alignment-guide`: Official guidelines for standard card sizes, columns, margins, and layout rules.
 - `dracflex-app://docs/elements-guide`: Schema definitions and styling parameters for text, shape, and badge elements.
+
+
