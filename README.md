@@ -1,5 +1,7 @@
 # DracFlex MCP Server
 
+[![Build Status](https://github.com/sultannaufal/dracflex-mcp/actions/workflows/build.yml/badge.svg)](https://github.com/sultannaufal/dracflex-mcp/actions) [![npm version](https://img.shields.io/npm/v/dracflex-mcp.svg?style=flat-square)](https://www.npmjs.com/package/dracflex-mcp) [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC) [![Model Context Protocol](https://img.shields.io/badge/MCP-1.0.0-orange)](https://modelcontextprotocol.io)
+
 Model Context Protocol (MCP) companion server for the **DracFlex Card Builder** application. This server enables AI agents (such as Claude in Claude Desktop, Cursor, or VSCode) to read, modify, and style your card designs in real-time through the browser canvas.
 
 The MCP server sets up a **Stdio Transport** for the AI client (e.g. Claude Desktop) and opens a **WebSocket Gateway** on port `9001` which the DracFlex web application automatically connects to when active in your browser.
