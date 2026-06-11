@@ -6,7 +6,7 @@ The MCP server sets up a **Stdio Transport** for the AI client (e.g. Claude Desk
 
 ---
 
-## ⚡ Easiest Way: Run via `npx` (No Cloning Needed)
+## Easiest Way: Run via `npx` (No Cloning Needed)
 
 If the package is published to npm as `dracflex-mcp`, or if you wish to run it instantly, you can use `npx` (Node.js) or `bunx` (Bun):
 
@@ -49,7 +49,7 @@ If you prefer to run it using Bun:
 
 ---
 
-## 🛠️ Developer Setup: Clone & Run Locally
+## Developer Setup: Clone & Run Locally
 
 If you want to clone this repository to make changes or run it locally:
 
@@ -97,7 +97,7 @@ bun run src/index.ts
 
 ---
 
-## ⚙️ Connecting to AI Clients (Local Development Config)
+## Connecting to AI Clients (Local Development Config)
 
 To point Claude Desktop to your locally cloned/built repository, configure it like this:
 
@@ -134,7 +134,7 @@ To point Claude Desktop to your locally cloned/built repository, configure it li
 
 ---
 
-## 🎛️ Provided Capabilities
+## Provided Capabilities
 
 This MCP server provides the following tools and resources:
 
